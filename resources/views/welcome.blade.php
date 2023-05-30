@@ -30,7 +30,7 @@
 
 <body>
 <div class="preloader">
-    <img class="preloader__image" width="120" src="{{ asset('/') }}assets/images/loader.png" alt="" />
+    <img class="preloader__image" width="120" src="{{ asset('/') }}assets/images/get-mechanic.png" alt="" />
 </div>
 <!-- /.preloader -->
 <div class="page-wrapper">
@@ -44,7 +44,7 @@
                                 6:00</a>
                         </li>
                         <li class="topbar__infos-item">
-                            <a class="topbar__infos-link" href="tel:92-666-888-0000"><i class="fa fa-phone-alt"></i>+880 (013) 030 6 2727</a>
+                            <a class="topbar__infos-link" href="tel:92-666-888-0000"><i class="fa fa-phone-alt"></i>+251 987654321</a>
                         </li>
                     </ul><!-- /.list-unstyled topbar__infos -->
 
@@ -63,7 +63,7 @@
 
                     <div class="main-menu__logo">
                         <a href="index.html">
-                            <img src="{{ asset('/') }}assets/images/logo-dark.png" width="137">
+                            <img src="{{ asset('/') }}assets/images/get-mechanic.png" width="107" height="100">
                         </a>
                     </div><!-- /.main-menu__logo -->
                     <ul class="main-menu__list">
@@ -72,13 +72,13 @@
 
                         </li>
                         <li>
-                            <a href="{{ url('/') }}">About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li class="dropdown">
-                            <a href="{{ url('/') }}">Services</a>
+                            <a href="#">Services</a>
                             <ul>
-                                <li><a href="{{ url('/') }}">All Services</a></li>
-                                <li><a href="{{ url('/') }}">Service Details</a></li>
+                                <li><a href="#service">All Services</a></li>
+                                <li><a href="#service">Service Details</a></li>
                             </ul>
                         </li>
 
@@ -119,7 +119,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 text-center">
-                                <p>Welcome to Vehicle Servicing & Mechanics Finder Web Application </p>
+                                <p>Welcome to Addis Car Breakdown Assistance</p>
                                 <h2>Premium Quality <br>
                                     Vehicle Servicing</h2>
                                 <a href="{{ url('/login') }}" class="thm-btn">Login Now <i class="far fa-arrow-alt-circle-right"></i></a>
@@ -135,10 +135,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12 text-center">
-                                <p>Welcome to Vehicle Servicing</p>
-                                <h2>Premium Quality <br>
-                                    Vehicle Servicing</h2>
-                                <a href="{{ url('/login') }}" class="thm-btn">Get Service Now <i class="far fa-arrow-alt-circle-right"></i></a>
+                                <p> እንኮን ወድ መካኒክ አፋላጊ በ ሰላም መጡ። </p>
+                                <h2>ከፍተኛ ጥራት<br>
+                                    መኪና ጥገና አገልግሎት</h2>
+                                <a href="{{ url('/login') }}" class="thm-btn">እገልግሎት ያግኙ<i class="far fa-arrow-alt-circle-right"></i></a>
                                 <!-- /.thm-btn dynamic-radius -->
                             </div><!-- /.col-lg-7 text-right -->
                         </div><!-- /.row -->
@@ -169,10 +169,10 @@
                     <div class="about-five__content">
                         <div class="section-title">
                             <span class="section-title__tagline">Get to Know Us</span>
-                            <h2 class="section-title__title">Welcome to Vehicle Servicing & Mechanic Finder</h2>
+                            <h2 class="section-title__title">Welcome to Addis Car Breakdown Assistance</h2>
                         </div><!-- /.section-title -->
                         <div class="about-five__summery">
-                            We have 30+ years of experiences for give you better quality results.
+                            We have 3+ years of experiences for give you better quality results.
                         </div><!-- /.about-five__summery -->
                         <div class="about-five__text">
                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered
@@ -210,7 +210,7 @@
         </div><!-- /.container -->
     </section><!-- /.about-five -->
 
-    <section class="service-home-two">
+    <section class="service-home-two" id="service">
         <div class="container">
             <div class="section-title text-center">
                 <span class="section-title__tagline">What We’re Offering</span>
@@ -223,18 +223,18 @@
                     <div class="service-card">
                         <div class="service-card__image">
                             <img src="{{ asset('/') }}assets/images/services/service-1-1.jpg" alt="">
-                            <a href="{{ asset('/') }}service-details.html"><i class="crsine-plus"></i></a>
+                            <a href="#"><i class="crsine-plus"></i></a>
                         </div><!-- /.service-card__image -->
                         <div class="service-card__content">
                             <div class="service-card__icon">
                                 <i class=" crsine-car-service-1"></i>
                             </div><!-- /.service-card__icon -->
-                            <h3 class="service-card__title"><a href="service-details.html">
+                            <h3 class="service-card__title"><a href="#">
                                     Full Vehicle Servicing
                                 </a></h3><!-- /.service-card__title -->
                             <p class="service-card__text">There are not many of passages of lorem ipsum avail isn alteration
                                 donationa in form.</p><!-- /.service-card__text -->
-                            <a href="service-details.html" class="service-card__more"><i class="crsine-right-arrow"></i></a>
+                            <a href="#" class="service-card__more"><i class="crsine-right-arrow"></i></a>
                             <!-- /.service-card__more -->
                         </div><!-- /.service-card__content -->
                     </div><!-- /.service-card -->
@@ -243,18 +243,18 @@
                     <div class="service-card">
                         <div class="service-card__image">
                             <img src="{{ asset('/') }}assets/images/services/service-1-2.jpg" alt="">
-                            <a href="service-details.html"><i class="crsine-plus"></i></a>
+                            <a href="#"><i class="crsine-plus"></i></a>
                         </div><!-- /.service-card__image -->
                         <div class="service-card__content">
                             <div class="service-card__icon">
                                 <i class="crsine-car-service-2"></i>
                             </div><!-- /.service-card__icon -->
-                            <h3 class="service-card__title"><a href="service-details.html">
+                            <h3 class="service-card__title"><a href="#">
                                     Auto Detailing
                                 </a></h3><!-- /.service-card__title -->
                             <p class="service-card__text">There are not many of passages of lorem ipsum avail isn alteration
                                 donationa in form.</p><!-- /.service-card__text -->
-                            <a href="service-details.html" class="service-card__more"><i class="crsine-right-arrow"></i></a>
+                            <a href="#" class="service-card__more"><i class="crsine-right-arrow"></i></a>
                             <!-- /.service-card__more -->
                         </div><!-- /.service-card__content -->
                     </div><!-- /.service-card -->
@@ -263,18 +263,18 @@
                     <div class="service-card">
                         <div class="service-card__image">
                             <img src="{{ asset('/') }}assets/images/services/service-1-3.jpg" alt="">
-                            <a href="service-details.html"><i class="crsine-plus"></i></a>
+                            <a href="#"><i class="crsine-plus"></i></a>
                         </div><!-- /.service-card__image -->
                         <div class="service-card__content">
                             <div class="service-card__icon">
                                 <i class="crsine-car-wash"></i>
                             </div><!-- /.service-card__icon -->
-                            <h3 class="service-card__title"><a href="service-details.html">
+                            <h3 class="service-card__title"><a href="#">
                                     Fixing Vehicle Problem
                                 </a></h3><!-- /.service-card__title -->
                             <p class="service-card__text">There are not many of passages of lorem ipsum avail isn alteration
                                 donationa in form.</p><!-- /.service-card__text -->
-                            <a href="service-details.html" class="service-card__more"><i class="crsine-right-arrow"></i></a>
+                            <a href="#" class="service-card__more"><i class="crsine-right-arrow"></i></a>
                             <!-- /.service-card__more -->
                         </div><!-- /.service-card__content -->
                     </div><!-- /.service-card -->
@@ -307,13 +307,13 @@
                 <div class="swiper-container testimonials-one__thumb" id="testimonials-one__thumb">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{{ asset('/') }}assets/images/resources/testi-1-1.jpg" alt="">
+                            <img src="{{ asset('/') }}assets/images/resources/bushra-mustofa.jpg" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset('/') }}assets/images/resources/testi-1-2.jpg" alt="">
+                            <img src="{{ asset('/') }}assets/images/resources/abenezer.jpg" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="{{ asset('/') }}assets/images/resources/testi-1-3.jpg" alt="">
+                            <img src="{{ asset('/') }}assets/images/resources/paul.jpg" alt="">
                         </div><!-- /.swiper-slide -->
                     </div><!-- /.swiper-wrapper -->
                 </div><!-- /.swiper-container -->
@@ -327,7 +327,7 @@
                                 dolor in
                                 reprehenderit in esse nulla pariatur.</p>
                             <div class="testimonials-two__meta">
-                                <h3 class="testimonials-one__name">Christine Rose</h3>
+                                <h3 class="testimonials-one__name">Bushra Mustofa</h3>
                                 <span class="testimonials-one__designation">Customer</span>
                             </div><!-- /.testimonials-two__meta -->
                         </div><!-- /.swiper-slide -->
@@ -339,7 +339,7 @@
                                 dolor in
                                 reprehenderit in esse nulla pariatur.</p>
                             <div class="testimonials-two__meta">
-                                <h3 class="testimonials-one__name">Christine Rose</h3>
+                                <h3 class="testimonials-one__name">Abenezer Tilahun</h3>
                                 <span class="testimonials-one__designation">Customer</span>
                             </div><!-- /.testimonials-two__meta -->
                         </div><!-- /.swiper-slide -->
@@ -362,7 +362,7 @@
     </section><!-- /.testimonials-one -->
 
 
-    <footer class="main-footer">
+    <footer class="main-footer" id="about">
         <div class="image-layer" style="background-image: url(assets/images/backgrounds/footer-bg-1.png);"></div>
         <!-- /.image-layer -->
         <div class="upper-footer">
@@ -387,36 +387,36 @@
                             <h3 class="footer-widget__title">Links</h3><!-- /.footer-widget__title -->
                             <div class="footer-widget__links-wrap">
                                 <ul class="list-unstyled">
-                                    <li><a href="services.html">
+                                    <li><a href="#">
                                             Our Services
                                         </a></li>
-                                    <li><a href="about.html">
+                                    <li><a href="#">
                                             Best Cleaning
                                         </a></li>
-                                    <li><a href="about.html">
+                                    <li><a href="#">
                                             Quality Polish
 
                                         </a></li>
-                                    <li><a href="contact.html">
+                                    <li><a href="#">
                                             Contact
 
                                         </a></li>
-                                    <li><a href="faqs.html">
+                                    <li><a href="#">
                                             Help
                                         </a></li>
                                 </ul><!-- /.list-unstyled -->
                                 <ul class="list-unstyled">
-                                    <li><a href="shop.html">
+                                    <li><a href="#">
                                             New Products
                                         </a></li>
-                                    <li><a href="about.html">
+                                    <li><a href="#">
                                             About Store
                                         </a></li>
-                                    <li><a href="about.html">
+                                    <li><a href="#">
                                             Support
 
                                         </a></li>
-                                    <li><a href="faqs.html">
+                                    <li><a href="#">
                                             FAQs
                                         </a></li>
                                 </ul><!-- /.list-unstyled -->
@@ -430,11 +430,10 @@
                                 Ashulia, Savar, Dhaka</p><!-- /.footer-widget__text -->
                             <ul class="footer-widget__contact-list list-unstyled">
                                 <li>
-                                    <a href="mailto:needhelp@crsine.com"><i class="fa fa-envelope"></i>needhelp@crsine.com</a>
+                                    <a href="mailto:help@addisvehicle.com"><i class="fa fa-envelope"></i>help@addisvehicle.com</a>
                                 </li>
                                 <li>
-                                    <a href="tel:92-666-888-000"><i class="fa fa-phone-square-alt"></i>92 666 888
-                                        000</a>
+                                    <a href="tel:251987654321"><i class="fa fa-phone-square-alt"></i>251987654321</a>
                                 </li>
                             </ul><!-- /.footer-widget__contact -->
                         </div><!-- /.footer-widget footer-widget__about -->
@@ -459,7 +458,7 @@
         <div class="bottom-footer">
             <div class="container">
                 <div class="bottom-footer__inner">
-                    <p class="bottom-footer__text">© Copyrights, 2021 Company.com</p>
+                    <p class="bottom-footer__text">© Copyrights, 2023 AddisVehicle.com</p>
                     <p class="bottom-footer__text"><a href="#">Terms & Condition</a>
                         <a href="#">Privacy Policy</a>
                     </p>
@@ -486,11 +485,11 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@packageName__.com">needhelp@crsine.com</a>
+                <a href="mailto:help@addis.com">help@addis.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
-                <a href="tel:666-888-0000">666 888 0000</a>
+                <a href="tel:251-888-0000">+251 888 0000</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">
